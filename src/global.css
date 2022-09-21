@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.center-content {
+  @apply h-screen w-full flex items-center justify-center flex-col;
+}
+
+.input-true {
+  @apply bg-[#E4E9F566] w-80 h-10 rounded-lg px-3;
+}
+
+.input-false {
+  @apply bg-[#e4e9f5af] w-80 h-10 rounded-lg px-3 cursor-not-allowed;
+}
